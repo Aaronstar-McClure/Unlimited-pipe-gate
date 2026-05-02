@@ -1,0 +1,13 @@
+{
+  "Version": "1.0.0",
+  "Title": "Unlimited Pipe Gates",
+  "Description": "Changes Pipe Gates to have unlimited throughput when opened",
+  "Author": "Aaronstar",
+  "DisablesAchievements": false,
+  "Dependencies": [
+    {
+      "ModId": "steam:3542611357",
+      "Version": "<1.0.0"
+    }
+  ]
+}
