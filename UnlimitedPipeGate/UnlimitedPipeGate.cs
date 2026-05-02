@@ -50,6 +50,8 @@ namespace UnlimitedPipeGate
                 {
                     if (definition.TryConfigAs<PipeGateMetaBuildingDefinition.Configuration>(out var pipeGateConfig))
                     {
+                        logger.Info?.Log($"Original ProvidingRate: {pipeGateConfig.ContainerConfig.ProvidingRate}");
+                        logger.Info?.Log($"Original ConsumingRate: {pipeGateConfig.ContainerConfig.ConsumingRate}");
                         pipeGateConfig.ContainerConfig.ProvidingRate *= 24;
                         pipeGateConfig.ContainerConfig.ConsumingRate *= 24;
                         logger.Info?.Log($"Modified ProvidingRate: {pipeGateConfig.ContainerConfig.ProvidingRate}");
