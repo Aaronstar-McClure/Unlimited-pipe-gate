@@ -158,11 +158,11 @@
 		<Private>False</Private>
     </Reference>
     <Reference Include="ShapezShifter">
-      <HintPath>$(SPZ2_PATH)\ShapezShifter.dll</HintPath>
+      <HintPath>$(SPZ2_SHIFTER)\ShapezShifter.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="SPZGameAssembly">
-      <HintPath>$(SPZ2_SHIFTER)\SPZGameAssembly.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\SPZGameAssembly.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
