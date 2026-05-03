@@ -6,5 +6,5 @@
     "previewfile" "${PREVIEW_IMG}"
     "visibility" "0"
     "title" "Unlimited Pipe Gates"
-    "description" "Unlimited Pipe Gates modifies the pipe gate to increase its throughput from one fluid launcher to 120. Currently the building HUD shows the correct L/min, however still shows one fluid launcher as that value is hard-coded."
+    "description" "Unlimited Pipe Gates modifies the pipe gate to increase its throughput from one fluid launcher to 24. Currently the building HUD shows the correct L/min, however still shows one fluid launcher as that value is hard-coded. Source at https://github.com/Aaronstar-McClure/Unlimited-pipe-gate"
 }
