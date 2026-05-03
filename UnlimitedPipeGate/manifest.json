@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "Title": "Unlimited Pipe Gates",
-  "Description": "Changes Pipe Gates to have an increased throughput when opened. Currently pipe gates are able to provide up to 24 fluid launchers worth of fluid.",
+  "Description": "Changes Pipe Gates to have an increased throughput when opened. Currently pipe gates are able to provide up to 120 fluid launchers worth of fluid.",
   "Author": "Aaronstar",
   "DisablesAchievements": false,
   "Assemblies": [
