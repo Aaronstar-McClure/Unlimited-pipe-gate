@@ -19,154 +19,154 @@
   <Target Name="SteamPublish">
 		<Exec Command='sh .\Steam\SteamPublish.sh "$(OutputPath)'/>
   </Target>
-
-  <ItemGroup>
+	
+	<ItemGroup>
     <Reference Include="Core">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Core.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Core.dll</HintPath>
 		<Private>False</Private>		  
     </Reference>
     <Reference Include="Game.Achievements">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Achievements.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Achievements.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Achievements.Definition">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Achievements.Definition.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Achievements.Definition.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Achievements.Platform">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Achievements.Platform.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Achievements.Platform.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Achievements.Representation">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Achievements.Representation.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Achievements.Representation.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Content">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Content.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Content.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Content.Achievements">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Content.Achievements.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Content.Achievements.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Content.Editor.ArtWorkflow.GameObjectRepresentation">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Content.Editor.ArtWorkflow.GameObjectRepresentation.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Content.Editor.ArtWorkflow.GameObjectRepresentation.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Content.Editor.MeshBaker">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Content.Editor.MeshBaker.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Content.Editor.MeshBaker.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Content.Features">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Content.Features.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Content.Features.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Core">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Core.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Core.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Core.Coordinates">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Core.Coordinates.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Core.Coordinates.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Core.Editor.MeshBaker">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Core.Editor.MeshBaker.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Core.Editor.MeshBaker.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Core.Effects">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Core.Effects.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Core.Effects.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Core.Effects.Editor.MonoBehaviours">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Core.Effects.Editor.MonoBehaviours.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Core.Effects.Editor.MonoBehaviours.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Core.Map">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Core.Map.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Core.Map.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Core.Map.Layout">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Core.Map.Layout.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Core.Map.Layout.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Core.Map.Layout.Model">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Core.Map.Layout.Model.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Core.Map.Layout.Model.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Core.Map.Model">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Core.Map.Model.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Core.Map.Model.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Core.Map.Simulation">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Core.Map.Simulation.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Core.Map.Simulation.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Core.Modding">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Core.Modding.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Core.Modding.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Core.Rendering">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Core.Rendering.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Core.Rendering.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Core.Rendering.ShaderProfiling">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Core.Rendering.ShaderProfiling.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Core.Rendering.ShaderProfiling.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Core.Simulation">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Core.Simulation.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Core.Simulation.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Develop">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Develop.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Develop.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Hud">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Hud.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Hud.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Hud.View">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Hud.View.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Hud.View.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Hud.View.Model">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Hud.View.Model.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Hud.View.Model.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Interaction">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Interaction.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Interaction.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Modding">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Modding.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Modding.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Orchestration">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Orchestration.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Orchestration.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Orchestration.Achievements">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Orchestration.Achievements.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Orchestration.Achievements.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Tutorial">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\Game.Tutorial.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\Game.Tutorial.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="GameAnalytics">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\GameAnalytics.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\GameAnalytics.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="ShapezShifter">
-      <HintPath>Z:\debian-installation\steamapps\workshop\content\2162800\3542611357\ShapezShifter.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\ShapezShifter.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="SPZGameAssembly">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\SPZGameAssembly.dll</HintPath>
+      <HintPath>$(SPZ2_SHIFTER)\SPZGameAssembly.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>Z:\debian-installation\steamapps\common\shapez 2\shapez 2_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>$(SPZ2_PATH)\UnityEngine.CoreModule.dll</HintPath>
 		<Private>False</Private>
     </Reference>
   </ItemGroup>
