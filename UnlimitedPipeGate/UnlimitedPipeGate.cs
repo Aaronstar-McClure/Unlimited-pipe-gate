@@ -79,8 +79,8 @@ namespace UnlimitedPipeGate
                         // PipeGateMetaBuildingDefinition.Configuration contains a StoringFluidContainerConfiguration
                         // StoringFluidContainerConfiguration has ProvidingRate and ConsumingRate properties (FluidRate type)
                         // These control the fluid throughput when the gate is open
-                        pipeGateConfig.ContainerConfig.ProvidingRate *= 120;
-                        pipeGateConfig.ContainerConfig.ConsumingRate *= 120;
+                        pipeGateConfig.ContainerConfig.ProvidingRate *= 96;
+                        pipeGateConfig.ContainerConfig.ConsumingRate *= 96;
                         
                         logger.Info?.Log($"Modified ProvidingRate: {pipeGateConfig.ContainerConfig.ProvidingRate}");
                         logger.Info?.Log($"Modified ConsumingRate: {pipeGateConfig.ContainerConfig.ConsumingRate}");

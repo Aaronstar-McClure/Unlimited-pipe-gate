@@ -158,7 +158,7 @@
 		<Private>False</Private>
     </Reference>
     <Reference Include="ShapezShifter">
-      <HintPath>$(SPZ2_SHIFTER)\ShapezShifter.dll</HintPath>
+      <HintPath>Z:\debian-installation\steamapps\workshop\content\2162800\3542611357\ShapezShifter.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="SPZGameAssembly">
