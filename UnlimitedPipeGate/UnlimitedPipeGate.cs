@@ -51,7 +51,7 @@ namespace UnlimitedPipeGate
             /// - meshCache: Cache for building mesh assets (IMeshCache interface)
             /// - theme: Visual theme resources (VisualThemeBaseResources interface)
             public GameBuildings ModifyGameBuildings(
-                MetaGameModeBuildings metaBuildings,
+                AuthoringBuildings metaBuildings,
                 GameBuildings gameBuildings,
                 IMeshCache meshCache,
                 VisualThemeBaseResources theme)

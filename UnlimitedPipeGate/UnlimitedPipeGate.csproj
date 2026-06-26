@@ -17,7 +17,7 @@
 	</ItemGroup>
 	
   <Target Name="SteamPublish">
-		<Exec Command='sh .\Steam\SteamPublish.sh "$(OutputPath)'/>
+		<Exec Command="sh .\Steam\SteamPublish.sh &quot;$(OutputPath)" />
   </Target>
 	
 	<ItemGroup>
@@ -63,6 +63,10 @@
     </Reference>
     <Reference Include="Game.Core">
       <HintPath>$(SPZ2_PATH)\Game.Core.dll</HintPath>
+		<Private>False</Private>
+    </Reference>
+    <Reference Include="Game.Core.Content">
+      <HintPath>$(SPZ2_PATH)\Game.Core.Content.dll</HintPath>
 		<Private>False</Private>
     </Reference>
     <Reference Include="Game.Core.Coordinates">

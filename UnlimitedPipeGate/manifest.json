@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.1",
+  "Version": "1.1.0",
   "Title": "Unlimited Pipe Gates",
   "Description": "Changes Pipe Gates to have an increased throughput when opened. Currently pipe gates are able to provide up to 96 fluid launchers worth of fluid, ~115200L/m",
   "Author": "Aaronstar",
@@ -11,7 +11,7 @@
     {
       "ModId": "steam:3542611357",
       "ModTitle": "Shapez Shifter",
-      "Version": "1.0.*"
+      "Version": "1.1.*"
     }
   ]
 }
